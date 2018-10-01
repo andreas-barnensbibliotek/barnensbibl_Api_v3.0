@@ -47,6 +47,18 @@ Public Class WebApiApplication
                                       "Api_v3.1/{controller}/typ/{cmdtyp}/devkey/{devkey}",
                                       defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
 
+        RouteTable.Routes.MapHttpRoute("Api_v3.1_getskrivboken",
+                                      "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/val/{value}/typ/{typevalue}/ap/{approved}/pub/{publish}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .value = System.Web.Http.RouteParameter.Optional, .typevalue = System.Web.Http.RouteParameter.Optional, .approved = System.Web.Http.RouteParameter.Optional, .publish = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
+
+        RouteTable.Routes.MapHttpRoute("Api_v3.1_autocomplete",
+                                      "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/antal/{antal}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .antal = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
+
+        RouteTable.Routes.MapHttpRoute("Apiv3.1 Bibblomon",
+                                      "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/uid/{userid}/monid/{monid}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .userid = System.Web.Http.RouteParameter.Optional, .monid = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
+
 
     End Sub
 End Class

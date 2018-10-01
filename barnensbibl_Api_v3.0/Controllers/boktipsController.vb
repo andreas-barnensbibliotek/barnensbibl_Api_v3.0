@@ -13,6 +13,8 @@ Imports krypinBoktips
 'localhost:59015/Api_v3.1/boktips/typ/BySearch/val/2/txtval/0/devkey/alf/?type=jsonp&callback=testar
 'localhost:59015/Api_v3.1/boktips/typ/ByTitle/val/2/txtval/0/devkey/alf/?type=jsonp&callback=testar
 'localhost:59015/Api_v3.1/boktips/typ/ByTipId/val/86/txtval/0/devkey/alf/?type=jsonp&callback=testar
+'localhost:59015/Api_v3.1/boktips/typ/ByUserId/val/7017/txtval/0/devkey/alf/?type=jsonp&callback=testar
+'localhost:59015/Api_v3.1/boktips/typ/ByBookId/val/10438/txtval/0/devkey/alf/?type=jsonp&callback=testar
 
 'ADD Och EDIT Och delete
 'localhost:59015/Api_v3.1/boktips/typ/addboktips/devkey/alf/?type=json&callback=testar
@@ -46,7 +48,7 @@ Public Class boktipsController
 
             Dim cmdsettings As New boktipsCommandInfo
             cmdsettings.Cmdtyp = cmdtyp
-            cmdsettings.value = value
+            cmdsettings.value = CInt(value)
             cmdsettings.textValue = txtvalue
 
             retobj = obj.handleBoktips(cmdsettings)

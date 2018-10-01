@@ -23,6 +23,10 @@ Public Class boktipsHandler
                     retobj = obj.BookTipsByTitle(cmdinfo.textValue)
                 Case "ByTipId"
                     retobj = obj.booktipByTipId(cmdinfo.value)
+                Case "ByUserId"
+                    retobj = obj.booktipByUserId(cmdinfo.value)
+                Case "ByBookId"
+                    retobj = obj.boktipsGetBookContextByBookID(cmdinfo.value)
                 Case Else
                     retobj.Status = "ERROR Ingen cmdtyp är angiven!"
             End Select
