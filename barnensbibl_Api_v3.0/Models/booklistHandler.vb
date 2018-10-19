@@ -10,10 +10,13 @@ Public Class booklistHandler
     Public Function handleBookToUserBooklist(cmdinfo As booklistCommandInfo) As krypinBookListInfo
         Dim obj As New krypinBoklistorMainController
         Dim retobj As New krypinBookListInfo
+        Dim AwardObj As New AwardHandler
+
         Try
             Select Case cmdinfo.Cmdtyp
                 Case "addbooklist"
                     retobj = obj.addBooklist(cmdinfo.userid, cmdinfo.value)
+                    AwardObj.setAwardtoUser("byAwardid", cmdinfo.userid, 49)
                 Case "delbooklist"
                     retobj = obj.delBooklist(cmdinfo.Boklistid, cmdinfo.userid)
                 Case "editbooklist"

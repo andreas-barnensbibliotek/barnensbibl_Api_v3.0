@@ -44,10 +44,13 @@ Public Class skrivbokenHandler
         Dim obj As New krypinSkrivbokenMainController
         Dim retobj As New skrivbokenJsonContainerInfo
         Dim cmdsettings As New commandTypeInfo
+        Dim AwardObj As New AwardHandler
+
         Try
             Select Case cmdinfo.Cmdtyp
                 Case "addskrivboken"
                     retobj.Status = obj.CrudADDskrivboken(skrivbokitem)
+                    AwardObj.setAwardtoUser("byAwardid", skrivbokitem.UserID, 1)
 
                 Case "editskrivboken"
                     retobj.Status = obj.CrudUpdateAllskrivboken(skrivbokitem)

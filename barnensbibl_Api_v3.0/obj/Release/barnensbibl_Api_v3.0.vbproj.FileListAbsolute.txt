@@ -58,13 +58,10 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\Newtonsoft.Json.
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Net.Http.Formatting.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Web.Http.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Web.Http.WebHost.dll
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\krypinSkrivboken.pdb
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\krypinSkrivboken.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\Newtonsoft.Json.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Net.Http.Formatting.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Web.Http.xml
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Web.Http.Cors.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\System.Web.Http.WebHost.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\obj\Release\barnensbibl_Api_v3.0.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\obj\Release\barnensbibl_Api_v3.0.xml

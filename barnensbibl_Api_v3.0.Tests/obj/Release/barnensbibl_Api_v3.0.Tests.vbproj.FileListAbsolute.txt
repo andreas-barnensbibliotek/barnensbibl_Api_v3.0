@@ -19,11 +19,8 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ba
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibl_Api_v3.0.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibl_Api_v3.0.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\System.Web.Http.xml
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\System.Web.Http.Cors.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoklistor.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoklistor.xml
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.pdb
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\System.Web.Http.WebHost.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\System.Net.Http.Formatting.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnenskrypinIMGHandler.pdb
@@ -32,3 +29,7 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\ba
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\barnensbibl_Api_v3.0.Tests.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\barnensbibl_Api_v3.0.Tests.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\barnensbibl_Api_v3.0.Tests.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\BibbloMoney.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\BibblomonLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\KrypinSettings.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.dll

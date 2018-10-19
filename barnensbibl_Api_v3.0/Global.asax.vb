@@ -59,6 +59,13 @@ Public Class WebApiApplication
                                       "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/uid/{userid}/monid/{monid}/devkey/{devkey}",
                                       defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .userid = System.Web.Http.RouteParameter.Optional, .monid = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
 
+        RouteTable.Routes.MapHttpRoute("Apiv3.1 Awards",
+                                      "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/uid/{userid}/ag/{awardgroup}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .userid = System.Web.Http.RouteParameter.Optional, .awardgroup = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
+
+        RouteTable.Routes.MapHttpRoute("Apiv3.1 settings",
+                                      "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/uid/{userid}/setid/{setid}/setval/{setval}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .userid = System.Web.Http.RouteParameter.Optional, .setid = System.Web.Http.RouteParameter.Optional, .setval = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
 
     End Sub
 End Class

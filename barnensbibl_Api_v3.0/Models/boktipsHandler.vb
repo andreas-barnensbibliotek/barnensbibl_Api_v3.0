@@ -1,5 +1,9 @@
 ﻿Imports krypinBoktips
 Public Class boktipsHandler
+
+    Private Enum awardtyp
+        boktips = 2
+    End Enum
     Public Function handleBoktips(cmdinfo As boktipsCommandInfo) As krypinBoktipsInfo
         Dim obj As New krypinBoktipsMainController
         Dim retobj As New krypinBoktipsInfo
@@ -40,10 +44,13 @@ Public Class boktipsHandler
     Public Function handleCrudBoktips(cmdinfo As boktipsCommandInfo, boktips As boktipsInfo) As krypinBoktipsInfo
         Dim obj As New krypinBoktipsMainCRUDController
         Dim retobj As New krypinBoktipsInfo
+        Dim AwardObj As New AwardHandler
+
         Try
             Select Case cmdinfo.Cmdtyp
                 Case "addboktips"
                     retobj = obj.addbooktip(boktips)
+                    AwardObj.setAwardtoUser("byAwardid", boktips.Userid, 2)
 
                 Case "editboktips"
                     retobj = obj.editbooktip(boktips)
