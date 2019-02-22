@@ -15,6 +15,13 @@ Imports krypinBoktips
 'localhost:59015/Api_v3.1/boktips/typ/ByTipId/val/86/txtval/0/devkey/alf/?type=jsonp&callback=testar
 'localhost:59015/Api_v3.1/boktips/typ/ByUserId/val/7017/txtval/0/devkey/alf/?type=jsonp&callback=testar
 'localhost:59015/Api_v3.1/boktips/typ/ByBookId/val/10438/txtval/0/devkey/alf/?type=jsonp&callback=testar
+'localhost:59015/Api_v3.1/boktips/typ/ByUserIdLatest/val/7017/txtval/0/devkey/alf/?type=jsonp&callback=testar
+'lista alla ----------------------------------------------------------------------------------------
+'localhost:59015/Api_v3.1/boktips/typ/getall/val/0/txtval/0/devkey/alf/?type=jsonp&callback=testar 
+'lista alla som inte är godkända--------------------------------------------------------------------
+'localhost:59015/Api_v3.1/boktips/typ/toapprove/val/0/txtval/0/devkey/alf/?type=jsonp&callback=testar 
+'approve require val = tipid (int) och textval= 1 (ja) annan siffra = 0 (nej)-----------------------
+'localhost:59015/Api_v3.1/boktips/typ/approve/val/1384/txtval/1/devkey/alf/?type=jsonp&callback=testar
 
 'ADD Och EDIT Och delete
 'localhost:59015/Api_v3.1/boktips/typ/addboktips/devkey/alf/?type=json&callback=testar

@@ -5,6 +5,9 @@ Imports KrypinSettings
 'get användarens setting i lista:  commandtyp: get, required: userid
 'localhost:59015/Api_v3.1/settings/cmdtyp/get/uid/7017/setid/0/setval/0/devkey/alf?type=json
 
+'get användarens läserjust nu bok. får bookid och bookimage:    commandtyp: getlasernu, required: userid
+'localhost:59015/Api_v3.1/settings/cmdtyp/getlasernu/uid/7017/setid/0/setval/0/devkey/alf?type=json
+
 'get updatera setting:  commandtyp: settings, required: userid, setid, setval
 ' setid = använd settingsid för att avgöra vilken typ av setting som skall ändras, 
 ' setval= värdet som skall sparas

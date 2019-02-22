@@ -6,6 +6,7 @@ Public Class boktipsHandler
     End Enum
     Public Function handleBoktips(cmdinfo As boktipsCommandInfo) As krypinBoktipsInfo
         Dim obj As New krypinBoktipsMainController
+        Dim crudobj As New krypinBoktipsMainCRUDController
         Dim retobj As New krypinBoktipsInfo
         Try
             Select Case cmdinfo.Cmdtyp
@@ -29,8 +30,16 @@ Public Class boktipsHandler
                     retobj = obj.booktipByTipId(cmdinfo.value)
                 Case "ByUserId"
                     retobj = obj.booktipByUserId(cmdinfo.value)
+                Case "ByUserIdLatest"
+                    retobj = obj.booktipLatestByUserId(cmdinfo.value)
                 Case "ByBookId"
                     retobj = obj.boktipsGetBookContextByBookID(cmdinfo.value)
+                Case "getall"
+                    retobj = crudobj.getbooktipAll()
+                Case "toapprove"
+                    retobj = crudobj.getbooksToApprove()
+                Case "approve"
+                    retobj = crudobj.ApproveBooktip(cmdinfo.value, cmdinfo.textValue)
                 Case Else
                     retobj.Status = "ERROR Ingen cmdtyp är angiven!"
             End Select
