@@ -48,3 +48,6 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\ba
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.dll.config
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.dll.config

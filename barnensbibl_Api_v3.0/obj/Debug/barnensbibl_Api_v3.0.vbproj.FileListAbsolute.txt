@@ -75,3 +75,6 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\katalogenLibrary
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\katalogenLibrary_v4_0.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\katalogenLibrary_v4_0.dll.config
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\obj\Debug\barnensbibl_Api_v3.0.vbprojAssemblyReference.cache
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\krypinSkrivboken.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\krypinSkrivboken.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0\bin\krypinSkrivboken.dll.config

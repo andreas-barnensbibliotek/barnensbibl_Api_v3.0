@@ -25,9 +25,11 @@ Public Class skrivbokenHandler
                 Case "BySkrivid"
                     cmdsettings.Skrivid = CInt(mainvalue)
                     cmdsettings.Userid = CInt(typevalue)
-
-
                     retobj = obj.getSkrivbokBySkrivid(cmdsettings)
+
+                Case "ByAdmin"
+                    cmdsettings.Userid = CInt(typevalue)
+                    retobj = obj.getSkrivbokByAdmin(cmdsettings)
 
                 Case Else
                     retobj.Status = "ERROR Ingen cmdtyp är angiven!"
@@ -57,6 +59,9 @@ Public Class skrivbokenHandler
 
                 Case "deleteskrivbok"
                     retobj.Status = obj.CrudDeleteskrivboken(skrivbokitem)
+
+                Case "approveskrivbok"
+                    retobj.Status = obj.CrudUpdateApproveskrivboken(skrivbokitem)
 
                 Case Else
                     retobj.Status = "ERROR Ingen cmdtyp är angiven!"

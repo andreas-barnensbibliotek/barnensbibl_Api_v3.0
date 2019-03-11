@@ -21,6 +21,11 @@ Imports krypinSkrivboken
 ' Optional values: none
 ' localhost:59015/Api_v3.1/skrivboken/cmdtyp/BySkrivid/val/105/typ/7017/ap/0/pub/0/devkey/alf/?type=jsonp&callback=testar
 
+' byadmin
+' Required values: cmdtyp = ByAdmin, val= skrivid, typevalue = userid  
+' Optional values: ap = 1 eller 2 eller 3 (approved: 1=ja (default), 2=nej, 3=alla)
+' localhost:59015/Api_v3.1/skrivboken/cmdtyp/ByAdmin/val/0/typ/7017/ap/0/pub/0/devkey/alf/?type=jsonp&callback=testar
+
 <EnableCors("*", "*", "*")>
     Public Class skrivbokenController
         Inherits ApiController
