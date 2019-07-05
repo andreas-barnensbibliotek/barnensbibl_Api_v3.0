@@ -1,4 +1,6 @@
 ﻿Imports krypinBoktips
+Imports BibbloMoney
+
 Public Class boktipsHandler
 
     Private Enum awardtyp
@@ -54,12 +56,16 @@ Public Class boktipsHandler
         Dim obj As New krypinBoktipsMainCRUDController
         Dim retobj As New krypinBoktipsInfo
         Dim AwardObj As New AwardHandler
+        Dim earnObj As New bibbloMoneyMainController
 
         Try
             Select Case cmdinfo.Cmdtyp
                 Case "addboktips"
                     retobj = obj.addbooktip(boktips)
                     AwardObj.setAwardtoUser("byAwardid", boktips.Userid, 2)
+
+                    'sätt basvärde användaren tjänar i bibblomoney på att skriva ett boktips
+                    earnObj.bibblomoneyEarnEvent(1, boktips.Userid)
 
                 Case "editboktips"
                     retobj = obj.editbooktip(boktips)

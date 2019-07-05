@@ -67,5 +67,10 @@ Public Class WebApiApplication
                                       "Api_v3.1/{controller}/cmdtyp/{cmdtyp}/uid/{userid}/setid/{setid}/setval/{setval}/devkey/{devkey}",
                                       defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .userid = System.Web.Http.RouteParameter.Optional, .setid = System.Web.Http.RouteParameter.Optional, .setval = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
 
+        RouteTable.Routes.MapHttpRoute("Api_v3.1_MainKatalogSearch",
+                                      "Api_v3.1/{controller}/typ/{cmdtyp}/searchval/{searchval}/val/{value}/devkey/{devkey}",
+                                      defaults:=New With {.cmdtyp = System.Web.Http.RouteParameter.Optional, .searchval = System.Web.Http.RouteParameter.Optional, .value = System.Web.Http.RouteParameter.Optional, .devkey = System.Web.Http.RouteParameter.Optional})
+
+
     End Sub
 End Class

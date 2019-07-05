@@ -1,6 +1,7 @@
 ﻿Imports System.Web.Http
 Imports System.Web.Http.Cors
 Imports BibbloMoney
+Imports QuestLibrary
 
 'get användarens bokmärkleser i lista:  byuserid
 'localhost:59015/Api_v3.1/award/cmdtyp/byuserid/uid/7017/ag/0/devkey/alf?type=json
@@ -26,4 +27,27 @@ Public Class awardController
 
     End Function
 
+    Public Function PostValue(cmdtyp As String, devkey As String, <FromBody> questinfo As cmdInfo) As UserQuestInfo
+        Dim retobj As New UserQuestInfo
+        Dim cmdobj As New cmdInfo
+
+        If _devkeyhandler.checkdevkey(devkey) Then
+            cmdobj.Cmdtyp = cmdtyp
+            cmdobj.QTriggerID = questinfo.QTriggerID
+            cmdobj.QuestID = questinfo.QuestID
+            cmdobj.Svar = questinfo.Svar
+            cmdobj.uQuestID = questinfo.uQuestID
+            cmdobj.Userid = questinfo.Userid
+
+
+
+        Else
+            'retobj.Boktips.Add(New boktipsInfo)
+            retobj.Status = _devkeyhandler.Statusmessage
+        End If
+
+        Return retobj
+        'exempel på cmd= byStatus,bySearch
+
+    End Function
 End Class

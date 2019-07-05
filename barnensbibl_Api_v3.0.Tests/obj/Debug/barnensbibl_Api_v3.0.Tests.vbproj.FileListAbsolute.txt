@@ -47,3 +47,14 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\kryp
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogenLibrary_v4_0.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogenLibrary_v4_0.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogenLibrary_v4_0.dll.config
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\QuestLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\QuestLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\QuestLibrary.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\QuestLibrary.dll.config
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogen_booklistLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\KrypinBokmarkelser.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogen_booklistLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\katalogen_booklistLibrary.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\KrypinBokmarkelser.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\KrypinBokmarkelser.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Debug\KrypinBokmarkelser.dll.config

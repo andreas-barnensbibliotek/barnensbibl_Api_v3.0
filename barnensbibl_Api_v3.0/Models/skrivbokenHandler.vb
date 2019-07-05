@@ -1,4 +1,6 @@
 ﻿Imports krypinSkrivboken
+Imports BibbloMoney
+
 Public Class skrivbokenHandler
 
     Public Function handleskrivboken(cmdtyp As String, mainvalue As String, typevalue As String, approved As String, publish As String) As skrivbokenJsonContainerInfo
@@ -47,12 +49,16 @@ Public Class skrivbokenHandler
         Dim retobj As New skrivbokenJsonContainerInfo
         Dim cmdsettings As New commandTypeInfo
         Dim AwardObj As New AwardHandler
+        Dim earnObj As New bibbloMoneyMainController
 
         Try
             Select Case cmdinfo.Cmdtyp
                 Case "addskrivboken"
                     retobj.Status = obj.CrudADDskrivboken(skrivbokitem)
                     AwardObj.setAwardtoUser("byAwardid", skrivbokitem.UserID, 1)
+
+                    'sätt basvärde användaren tjänar i bibblomoney på att skriva i skrivboken
+                    earnObj.bibblomoneyEarnEvent(4, skrivbokitem.UserID)
 
                 Case "editskrivboken"
                     retobj.Status = obj.CrudUpdateAllskrivboken(skrivbokitem)
