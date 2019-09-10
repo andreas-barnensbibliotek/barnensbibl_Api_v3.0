@@ -35,9 +35,6 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ka
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\Newtonsoft.Json.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibliotekLibrary35.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibl_Api_v3.0.dll.config
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoktips.pdb
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoktips.xml
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoktips.dll.config
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinBoklistor.dll.config
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibliotekLibrary35.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\barnensbibliotekLibrary35.xml
@@ -48,9 +45,6 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\obj\Release\ba
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.xml
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenLibrary_v4_0.dll.config
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.pdb
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.xml
-D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\krypinSkrivboken.dll.config
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\QuestLibrary.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\QuestLibrary.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\QuestLibrary.xml
@@ -62,3 +56,11 @@ D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\Kr
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogen_booklistLibrary.dll
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogen_booklistLibrary.pdb
 D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogen_booklistLibrary.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenKommentarerLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ForfattareLibrary.dll
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenKommentarerLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenKommentarerLibrary.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\katalogenKommentarerLibrary.dll.config
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ForfattareLibrary.pdb
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ForfattareLibrary.xml
+D:\devprojekt\api\barnensbibl_Api_v3.0\barnensbibl_Api_v3.0.Tests\bin\Release\ForfattareLibrary.dll.config

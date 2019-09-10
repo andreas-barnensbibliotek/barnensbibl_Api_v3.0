@@ -56,6 +56,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\BibblomonLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="ForfattareLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ForfattareLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="katalogenKommentarerLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\katalogenKommentarerLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="katalogenLibrary_v4_0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\katalogenLibrary_v4_0.dll</HintPath>
@@ -169,7 +178,9 @@
     <Compile Include="Controllers\bibblomonHighScoreController.vb" />
     <Compile Include="Controllers\boktipsController.vb" />
     <Compile Include="Controllers\booklistController.vb" />
+    <Compile Include="Controllers\CommentsController.vb" />
     <Compile Include="Controllers\katalogenController.vb" />
+    <Compile Include="Controllers\katalogenextendedController.vb" />
     <Compile Include="Controllers\questController.vb" />
     <Compile Include="Controllers\settingsController.vb" />
     <Compile Include="Controllers\skrivbokenController.vb" />
@@ -187,7 +198,9 @@
     <Compile Include="Models\bibblomonHandler.vb" />
     <Compile Include="Models\boktipsHandler.vb" />
     <Compile Include="Models\booklistHandler.vb" />
+    <Compile Include="Models\CommentsHandler.vb" />
     <Compile Include="Models\devkeyhandler.vb" />
+    <Compile Include="Models\katalogenExtendedHandler.vb" />
     <Compile Include="Models\KatalogenHandler.vb" />
     <Compile Include="Models\QuestHandler.vb" />
     <Compile Include="Models\settingsHandler.vb" />

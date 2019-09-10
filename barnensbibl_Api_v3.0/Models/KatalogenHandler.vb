@@ -53,6 +53,18 @@ Public Class KatalogenHandler
         Return retobj
     End Function
 
+    Public Function getKatalogenDetailbyBookid(cmdtyp As String, bookid As Integer, userid As Integer) As mainSearchResultInfoExtended
+        Dim retobj As New mainSearchResultInfoExtended
+        Try
+            retobj = _SearchObjExtended.getKatalogenTypeSearch(cmdtyp, bookid, userid)
+
+        Catch ex As Exception
+            'retobj.Status = "ERROR Fel vid expensive sökning i katalogen med typ: " & cmdtyp & " id: " & id
+        End Try
+
+        Return retobj
+    End Function
+
     Public Function getautocomplete(cmdtyp As String, searchstr As String, txtantal As String) As katalogenAutocompleteInfo
         Dim retobj As New katalogenAutocompleteInfo
         Try

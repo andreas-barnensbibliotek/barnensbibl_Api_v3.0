@@ -11,6 +11,7 @@ Imports katalogenLibrary_v4_0
 'values: typ/cmdtyp: search, val: searchstring/sökord,
 'localhost:59015/Api_v3.1/katalogen/typ/cat/searchval/9/val/7017/devkey/alf/?type=json&callback=testar
 'localhost:59015/Api_v3.1/katalogen/typ/search/searchval/cirkeln/val/7017/devkey/alf/?type=json&callback=testar
+'localhost:59015/Api_v3.1/katalogen/typ/bookid/searchval/5666/val/7017/devkey/alf/?type=json&callback=testar
 
 <EnableCors("*", "*", "*")>
 Public Class katalogenController
@@ -24,6 +25,10 @@ Public Class katalogenController
         If String.IsNullOrEmpty(value) Or value = "undefined" Then
             value = 0
         End If
+        If String.IsNullOrEmpty(searchval) Or searchval = "undefined" Then
+            searchval = 0
+        End If
+
         If _devkeyhandler.checkdevkey(devkey) Then
             Select Case cmdtyp
                 Case "search"
@@ -32,12 +37,15 @@ Public Class katalogenController
                     retobj = obj.getKatalogenSearchTyp(cmdtyp, CInt(searchval), CInt(value))
                 Case "amne"
                     retobj = obj.getKatalogenSearchTyp(cmdtyp, CInt(searchval), CInt(value))
+                Case "bookid"
+                    retobj = obj.getKatalogenSearchTyp(cmdtyp, CInt(searchval), CInt(value))
                 Case "searchOld"
                     retobj = obj.getKatalogenSearchOld(cmdtyp, searchval, CInt(value))
                 Case "catOld"
                     retobj = obj.getKatalogenSearchTypOld(cmdtyp, CInt(searchval), CInt(value))
                 Case "amneOld"
                     retobj = obj.getKatalogenSearchTypOld(cmdtyp, CInt(searchval), CInt(value))
+
                 Case Else
                     retobj = obj.getautocomplete(cmdtyp, searchval, CInt(value))
             End Select
@@ -68,5 +76,19 @@ Public Class katalogenController
 
     End Function
 
+    Public Function PostValue(cmdtyp As String, devkey As String, <FromBody> searchform As autocompleteCommandInfo) As Object
+        Dim retobj As New Object
+        Dim obj As New KatalogenHandler
+
+        If _devkeyhandler.checkdevkey(devkey) Then
+            retobj = obj.getKatalogenSearch(cmdtyp, searchform.Searchstr, searchform.userid)
+
+        Else
+            retobj.Status = _devkeyhandler.Statusmessage
+        End If
+
+        Return retobj
+
+    End Function
 End Class
 
